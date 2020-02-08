@@ -4,9 +4,9 @@ module.exports = {
   name: "word-relay-setting",
   mode: "development", // 실서비스: production
   devtool: "eval",
-  resolve: {
-    extensions: [".js", ".jsx", ".css"] // 확장자가 여러개일 경우 찾아준다
-  },
+  //   resolve: {
+  //     extensions: [".js", ".jsx", ".css"] // 확장자가 여러개일 경우 찾아준다
+  //   },
   entry: {
     app: ["./client.jsx", "./WordRelay.jsx"] //두 입력을 합해서 app으로 만들어 준다
   }, //입력
